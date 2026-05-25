@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Profe #5",
+  "description": "Pepe con cara de no saber nada en el estadio",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeicohdmhqjkky7fspppwlkryidnskybtivr6n7ddd6xmq77efif6c4/5.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Perdido" }
+  ]
+}

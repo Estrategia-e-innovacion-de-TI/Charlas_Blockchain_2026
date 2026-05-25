@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Serio #2",
+  "description": "Pepe con los brazos cruzados, serio con la camiseta de Colombia",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeicohdmhqjkky7fspppwlkryidnskybtivr6n7ddd6xmq77efif6c4/2.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Serio" }
+  ]
+}

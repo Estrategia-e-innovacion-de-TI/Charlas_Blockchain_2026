@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFT Marketplace</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── HEADER ─────────────────────────────────────────────── -->
+  <header>
+    <div class="header-brand">
+      <span class="logo">⬡</span>
+      <h1>NFT Marketplace</h1>
+    </div>
+    <div class="header-wallet">
+      <div id="walletInfo" class="wallet-info hidden">
+        <span id="mockBalance" class="balance-badge">0 MOCK</span>
+        <span id="walletAddress" class="address-badge"></span>
+      </div>
+      <button id="btnConnect" onclick="connectWallet()">Conectar wallet</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── FAUCET ──────────────────────────────────────────────── -->
+    <section class="card" id="sectionFaucet">
+      <h2>🚰 Obtener tokens MOCK</h2>
+      <p>Obtén <strong>1,000 MOCK</strong> gratis para comprar NFTs en el marketplace.</p>
+      <button onclick="claimFaucet()">Reclamar tokens</button>
+      <p id="faucetMsg" class="msg"></p>
+    </section>
+
+    <!-- ── MIS NFTs ─────────────────────────────────────────────── -->
+    <section class="card" id="sectionMyNFTs">
+      <h2>🖼️ Mis NFTs</h2>
+      <div class="input-row">
+        <input id="myNftContract" type="text" placeholder="Dirección de tu contrato NFT (0x...)" />
+        <button onclick="loadMyNFTs()">Cargar</button>
+      </div>
+      <p id="myNftsMsg" class="msg"></p>
+      <div id="myNftsGrid" class="nft-grid"></div>
+    </section>
+
+    <!-- ── MARKETPLACE ─────────────────────────────────────────── -->
+    <section class="card" id="sectionMarketplace">
+      <h2>🏪 Marketplace</h2>
+      <button onclick="loadListings()">↻ Actualizar</button>
+      <p id="marketMsg" class="msg"></p>
+      <div id="listingsGrid" class="nft-grid"></div>
+    </section>
+
+    <!-- ── MIS LISTINGS ──────────────────────────────────────────── -->
+    <section class="card" id="sectionMyListings">
+      <h2>📋 Mis listings</h2>
+      <button onclick="loadMyListings()">↻ Actualizar</button>
+      <p id="myListingsMsg" class="msg"></p>
+      <div id="myListingsGrid" class="nft-grid"></div>
+    </section>
+
+  </main>
+
+  <!-- ── MODAL LISTAR NFT ─────────────────────────────────────── -->
+  <div id="modalList" class="modal hidden">
+    <div class="modal-box">
+      <h3>Listar NFT en venta</h3>
+      <p id="modalNftInfo"></p>
+      <label>Precio (MOCK)
+        <input id="listPrice" type="number" min="0.001" step="0.001" placeholder="ej: 10" />
+      </label>
+      <div class="modal-actions">
+        <button onclick="confirmList()">Listar</button>
+        <button class="btn-secondary" onclick="closeModal()">Cancelar</button>
+      </div>
+      <p id="modalMsg" class="msg"></p>
+    </div>
+  </div>
+  <div id="modalOverlay" class="modal-overlay hidden" onclick="closeModal()"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
