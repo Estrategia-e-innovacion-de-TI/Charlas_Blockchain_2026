@@ -1,0 +1,18 @@
+# Foundry
+Charla3/Blockchain/out/
+Charla3/Blockchain/cache/
+Charla3/Blockchain/broadcast/*/
+Charla3/Blockchain/.env
+
+# Dependencies
+Charla3/Blockchain/lib/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
