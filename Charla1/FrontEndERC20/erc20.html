@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERC20 DApp Básico</title>
+    <script type="module" src="js/main.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+      }
+      .container {
+        max-width: 400px;
+        margin: auto;
+      }
+      .section {
+        margin-bottom: 20px;
+      }
+      #messages {
+        background: #f5f5f5;
+        padding: 10px;
+        min-height: 40px;
+        border-radius: 5px;
+      }
+      button {
+        padding: 8px 16px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>ERC20 DApp Básico</h2>
+      <div class="section">
+        <button onclick="connectWallet()">Conectar billetera</button>
+        <div id="walletAddress"></div>
+      </div>
+      <div class="section">
+        <button onclick="getTokenName()">Leer nombre del token</button>
+        <div id="tokenName"></div>
+      </div>
+      <div class="section">
+        <h4>Transferir token</h4>
+        <input
+          type="text"
+          id="toAddress"
+          placeholder="Dirección destino"
+          style="width: 100%"
+        /><br />
+        <input
+          type="number"
+          id="amount"
+          placeholder="Cantidad"
+          min="0"
+          step="any"
+          style="width: 100%"
+        /><br />
+        <button onclick="transferToken()">Transferir</button>
+      </div>
+      <div class="section">
+        <h4>Mensajes</h4>
+        <div id="messages"></div>
+      </div>
+    </div>
+  </body>
+</html>

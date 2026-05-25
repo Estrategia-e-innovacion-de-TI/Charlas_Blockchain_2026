@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERC20 DApp Básico</title>
+    <!-- Carga el script principal como módulo ES6.
+         Contiene la lógica para conectar la wallet, leer datos del contrato y transferir tokens. -->
+    <script type="module" src="js/main.js"></script>
+    <style>
+      /* Estilos generales de la página */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+      }
+      /* Limita el ancho del contenido y lo centra horizontalmente */
+      .container {
+        max-width: 400px;
+        margin: auto;
+      }
+      /* Separación vertical entre secciones */
+      .section {
+        margin-bottom: 20px;
+      }
+      /* Área donde se muestran mensajes de estado, errores y confirmaciones */
+      #messages {
+        background: #f5f5f5;
+        padding: 10px;
+        min-height: 40px;
+        border-radius: 5px;
+      }
+      /* Estilo base para todos los botones */
+      button {
+        padding: 8px 16px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>ERC20 DApp Básico</h2>
+
+      <!-- ── Sección 1: Conexión de billetera ──────────────────────────────
+           Al hacer clic se solicita acceso a las cuentas de MetaMask.
+           La dirección conectada se muestra en #walletAddress. -->
+      <div class="section">
+        <button onclick="connectWallet()">Conectar billetera</button>
+        <!-- Muestra la dirección de la cuenta activa una vez conectada -->
+        <div id="walletAddress"></div>
+      </div>
+
+      <!-- ── Sección 2: Lectura del nombre del token ───────────────────────
+           Llama a la función name() del contrato ERC20 y muestra el resultado. -->
+      <div class="section">
+        <button onclick="getTokenName()">Leer nombre del token</button>
+        <!-- Muestra el nombre devuelto por el contrato -->
+        <div id="tokenName"></div>
+      </div>
+
+      <!-- ── Sección 3: Transferencia de tokens ────────────────────────────
+           El usuario ingresa la dirección destino y la cantidad en tokens
+           (unidades humanas, ej. 100 = 100 tokens).
+           La cantidad se convierte internamente a unidades base
+           usando los decimales del contrato antes de firmar la transacción. -->
+      <div class="section">
+        <h4>Transferir token</h4>
+        <!-- Dirección Ethereum del destinatario (formato 0x...) -->
+        <input
+          type="text"
+          id="toAddress"
+          placeholder="Dirección destino"
+          style="width: 100%"
+        /><br />
+        <!-- Cantidad en tokens (no en unidades base).
+             Ejemplo: escribir 100 envía 100 tokens reales, no 100 wei de token. -->
+        <input
+          type="number"
+          id="amount"
+          placeholder="Cantidad"
+          min="0"
+          step="any"
+          style="width: 100%"
+        /><br />
+        <button onclick="transferToken()">Transferir</button>
+      </div>
+
+      <!-- ── Sección 4: Panel de mensajes ──────────────────────────────────
+           Muestra confirmaciones, hashes de transacción y mensajes de error. -->
+      <div class="section">
+        <h4>Mensajes</h4>
+        <!-- El texto de este div se actualiza dinámicamente desde main.js -->
+        <div id="messages"></div>
+      </div>
+    </div>
+  </body>
+</html>

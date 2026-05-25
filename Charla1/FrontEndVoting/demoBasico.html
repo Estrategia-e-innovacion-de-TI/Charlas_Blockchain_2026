@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo Básica Voting DApp</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    #viem-output { margin-top: 1em; padding: 1em; border: 1px solid #ccc; background: #f9f9f9; min-height: 60px; }
+    button { margin: 0.5em 0; }
+  </style>
+</head>
+<body>
+  <h2>Demo Básica Voting DApp</h2>
+
+  <button onclick="connectWallet()">Conectar a la billetera</button>
+  <button onclick="checkVotingStarted()">¿Votación iniciada?</button>
+  <button onclick="startVoting()">Iniciar votación</button>
+
+  <div id="viem-output"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

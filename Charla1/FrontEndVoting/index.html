@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Voting DApp</title>
+  </head>
+  <body>
+    <button onclick="connectWallet()">Conectar wallet</button>
+
+    <!-- Controles de votación -->
+    <section style="margin-top: 16px; max-width: 600px">
+      <button onclick="startVoting()">Iniciar votación</button>
+    </section>
+
+    <!-- Formulario para agregar candidatos -->
+    <section style="margin-top: 24px; max-width: 600px">
+      <h2>Agregar candidato</h2>
+      <div style="display: flex; gap: 8px; align-items: center">
+        <input
+          id="candidate-name"
+          type="text"
+          placeholder="Nombre del candidato"
+          style="flex: 1; padding: 6px 8px"
+        />
+        <button onclick="addCandidate()">Agregar</button>
+      </div>
+    </section>
+
+    <!-- Sección para listar candidatos y votar -->
+    <section style="margin-top: 24px; max-width: 600px">
+      <h2>Candidatos y votación</h2>
+      <div style="margin-bottom: 8px">
+        <button onclick="loadCandidates()">Cargar lista de candidatos</button>
+      </div>
+
+      <div style="display: flex; gap: 8px; align-items: center; margin-top: 8px">
+        <input
+          id="vote-candidate-name"
+          type="text"
+          placeholder="Nombre del candidato para votar"
+          style="flex: 1; padding: 6px 8px"
+        />
+        <button
+          onclick="voteForCandidate(document.getElementById('vote-candidate-name').value)"
+        >
+          Votar
+        </button>
+      </div>
+
+      <div style="display: flex; gap: 8px; align-items: center; margin-top: 8px">
+        <input
+          id="votes-candidate-name"
+          type="text"
+          placeholder="Nombre del candidato para ver votos"
+          style="flex: 1; padding: 6px 8px"
+        />
+        <button
+          onclick="getVotesForCandidate(document.getElementById('votes-candidate-name').value)"
+        >
+          Ver votos
+        </button>
+      </div>
+    </section>
+
+    <!-- Sección de estado general -->
+    <section style="margin-top: 24px; max-width: 600px">
+      <h2>Estado de la votación</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px">
+        <button onclick="checkVotingStarted()">¿Votación iniciada?</button>
+        <button onclick="checkHasVoted()">¿He votado?</button>
+        <button onclick="getOwner()">Ver owner del contrato</button>
+      </div>
+    </section>
+
+    <!-- Apartado para mostrar mensajes de viem -->
+    <section
+      id="viem-output"
+      style="
+        margin-top: 16px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: monospace;
+        font-size: 14px;
+        max-width: 600px;
+      "
+    ></section>
+
+    <!-- Tu código va en main.js -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
