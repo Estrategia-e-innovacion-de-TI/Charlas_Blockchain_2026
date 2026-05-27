@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Bravo #8",
+  "description": "Pepe bravo porque perdieron",
+  "image": "https://tomato-local-duck-108.mypinata.cloud/ipfs/bafybeiftur4u247dxwt2t4nmrkqdyocnojiqufqofnfcvbgjbzbyeoii6y/8.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Bravo" }
+  ]
+}

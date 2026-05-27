@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Viajero  #10",
+  "description": "Pepe organizando su viaje",
+  "image": "https://tomato-local-duck-108.mypinata.cloud/ipfs/bafybeic6dqerjjkfntfdqsbldcisyqxrriegyh3ksv2ekd6447szvrdznu/10.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Viajero" }
+  ]
+}

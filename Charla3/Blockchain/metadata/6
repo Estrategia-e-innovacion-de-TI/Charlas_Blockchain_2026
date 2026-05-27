@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Empanada #6",
+  "description": "Pepe listo con empanada y ticket para el partido",
+  "image": "https://tomato-local-duck-108.mypinata.cloud/ipfs/bafybeigh4adna2pc4r2kcna333vi3ts22kdmwkicxi4fjob6vlr4243kpy/6.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Ilusionado" }
+  ]
+}

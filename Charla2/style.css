@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #282828;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1 { color: #282828; }
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-top: 4px solid #fdd024;
+}
+.balance-display {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #282828;
+}
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+.btn-primary { background-color: #fdd024; color: #282828; }
+.btn-primary:hover { background-color: #e5b91b; }
+.btn-secondary { background-color: #282828; color: #fff; margin-top: 10px; }
+.btn-secondary:hover { background-color: #404040; }
+button:disabled, input:disabled { opacity: 0.5; cursor: not-allowed; }
+.input-group { margin-bottom: 15px; }
+.input-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+.input-group input { width: 95%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+.status-msg { text-align: center; margin-top: 15px; font-weight: bold; color: #007bff; }

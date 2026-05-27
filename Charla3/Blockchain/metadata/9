@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Triste  #9",
+  "description": "Pepe triste en el palco",
+  "image": "https://tomato-local-duck-108.mypinata.cloud/ipfs/bafybeihhjqzrvwa2gxoz27tscngzuu64tfpua7hdwmopg27uogs2w5is2i/9/png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Triste" }
+  ]
+}

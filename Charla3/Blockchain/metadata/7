@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Tienda #7",
+  "description": "Pepe con su tienda de monas",
+  "image": "https://tomato-local-duck-108.mypinata.cloud/ipfs/bafybeid3umqkl2atdhrznltm672teo5magkejip3f7xz4vj3igdnapj2uu/7.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Vendedor" }
+  ]
+}

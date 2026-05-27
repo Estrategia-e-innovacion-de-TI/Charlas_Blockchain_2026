@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera dApp</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importamos Ethers.js v6 desde un CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.11.1/ethers.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="nombreToken">Token Bancolombia (TBC)</h1>
+            <button id="btnConnect" class="btn-primary">Conectar Billetera</button>
+            <p id="walletAddress">No conectado</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>Mi Balance</h2>
+                <p class="balance-display"><span id="tokenBalance">0</span> TBC</p>
+                <button id="btnRefresh" class="btn-secondary" disabled>Actualizar Balance</button>
+            </section>
+
+            <section class="card">
+                <h2>Transferir Tokens</h2>
+                <form id="transferForm">
+                    <div class="input-group">
+                        <label for="toAddress">Dirección Destino:</label>
+                        <input type="text" id="toAddress" placeholder="0x..." required disabled>
+                    </div>
+                    <div class="input-group">
+                        <label for="amount">Cantidad:</label>
+                        <input type="number" id="amount" placeholder="0.0" step="0.01" required disabled>
+                    </div>
+                    <button type="submit" id="btnTransfer" class="btn-primary" disabled>Enviar Tokens</button>
+                </form>
+                <p id="txStatus" class="status-msg"></p>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
