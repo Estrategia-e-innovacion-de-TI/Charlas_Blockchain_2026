@@ -1,0 +1,14 @@
+{
+  "name": "Cheems Mundialista #2",
+  "description": "Cheems llega ilusionado al partido, convencido de que este año sí es.",
+  "image": "",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Personaje", "value": "Cheems" },
+    { "trait_type": "Mood", "value": "Ilusionado" },
+    { "trait_type": "Momento", "value": "Previo al partido" },
+    { "trait_type": "Tematica", "value": "Mundial" },
+    { "trait_type": "Pais", "value": "Colombia" },
+    { "trait_type": "Rareza", "value": "Raro" }
+  ]
+}
