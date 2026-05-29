@@ -1,0 +1,11 @@
+  {
+    "name": "Doge",
+    "description": "El capitán intergaláctico del equipo argentino. Siempre parece confundido, pero termina levantando la copa.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes/1.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Argentina" },
+      { "trait_type": "Meme", "value": "Doge" },
+      { "trait_type": "Rareza", "value": "Legendaria" },
+      { "trait_type": "Mood", "value": "Confiado" }
+    ]
+  }

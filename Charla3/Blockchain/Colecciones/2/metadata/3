@@ -1,0 +1,11 @@
+  {
+    "name": "Piensa, Bro",
+    "description": "El estratega absoluto del Mundial de Memes. Siempre tiene una jugada táctica que nadie entiende.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes/3.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Francia" },
+      { "trait_type": "Meme", "value": "Roll Safe" },
+      { "trait_type": "Rareza", "value": "Épica" },
+      { "trait_type": "Mood", "value": "Intelectual" }
+    ]
+  }

@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Bravo #2",
+  "description": "Pepe bravo porque perdieron",
+  "image": "https://gateway.pinata.cloud/ipfs/...../2.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Bravo" }
+  ]
+}

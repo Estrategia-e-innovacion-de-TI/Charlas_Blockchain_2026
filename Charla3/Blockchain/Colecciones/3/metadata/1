@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Tienda #1",
+  "description": "Pepe con su tienda de monas",
+  "image": "https://gateway.pinata.cloud/ipfs/...../1.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Vendedor" }
+  ]
+}

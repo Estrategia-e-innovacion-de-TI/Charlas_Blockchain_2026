@@ -1,0 +1,14 @@
+{
+    "name": "Cheems Mundialista #1",
+    "description": "Cheems celebra con euforia un gol de Colombia en el estadio.",
+    "image": "https://gateway.pinata.cloud/ipfs/...../0.png",
+    "attributes": [
+      { "trait_type": "Edicion", "value": "Genesis" },
+      { "trait_type": "Personaje", "value": "Cheems" },
+      { "trait_type": "Mood", "value": "Celebrando" },
+      { "trait_type": "Momento", "value": "Gol" },
+      { "trait_type": "Tematica", "value": "Mundial" },
+      { "trait_type": "Pais", "value": "Colombia" },
+      { "trait_type": "Rareza", "value": "Legendario" }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Viajero  #4",
+  "description": "Pepe organizando su viaje",
+  "image": "https://gateway.pinata.cloud/ipfs/...../4.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Viajero" }
+  ]
+}

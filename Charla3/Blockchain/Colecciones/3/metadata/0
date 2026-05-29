@@ -1,0 +1,9 @@
+{
+  "name": "Pepe Empanada #0",
+  "description": "Pepe listo con empanada y ticket para el partido",
+  "image": "https://gateway.pinata.cloud/ipfs/...../0.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Mood", "value": "Ilusionado" }
+  ]
+}
