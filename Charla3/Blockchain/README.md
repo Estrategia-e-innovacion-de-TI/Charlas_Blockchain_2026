@@ -83,6 +83,22 @@ Crea una carpeta local `metadata/` con archivos sin extensión `0`, `1`, `2`, et
 setBaseURI("https://gateway.pinata.cloud/ipfs/QmMetaFolder/")
 ```
 
+BaseURI de las colecciones (metadata):
+
+```solidity
+// Coleccion 1
+setBaseURI("https://gateway.pinata.cloud/ipfs/bafybeifburrtcuddw72pvf46mxs4l7v52crt3nwjdnhvhyqiqp3mspipjm/");
+
+// Coleccion 2
+setBaseURI("https://gateway.pinata.cloud/ipfs/bafybeicdfnw2smg47x5uow3i3dg5kv63tre4lrouvblggkm6jtdcgbjf3y/");
+
+// Coleccion 3
+setBaseURI("https://gateway.pinata.cloud/ipfs/bafybeig5gcxmddkzj2s4inhzuihaqgpziz5zya6wiuakzpistkhx4eqqiq/");
+
+// Coleccion 4
+setBaseURI("https://gateway.pinata.cloud/ipfs/bafybeic22wh5mosrjx453ilc63ubtmqz64hgzd5ju7lyuskqbsfjwyypzu/");
+```
+
 > ⚠️ La `/` al final es obligatoria.
 
 #### Resultado

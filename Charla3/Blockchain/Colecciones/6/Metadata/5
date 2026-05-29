@@ -1,0 +1,11 @@
+{
+    "name": "Thinking Bro",
+    "description": "El cerebro táctico de Estados Unidos. Cree que cada jugada tiene una explicación filosófica.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes3/5.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Estados Unidos" },
+      { "trait_type": "Meme", "value": "Roll Safe" },
+      { "trait_type": "Rareza", "value": "Ultra Rara" },
+      { "trait_type": "Mood", "value": "Intelectual" }
+    ]
+  }

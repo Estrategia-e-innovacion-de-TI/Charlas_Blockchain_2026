@@ -1,0 +1,11 @@
+  {
+    "name": "Trollencio",
+    "description": "El delantero español especialista en humillar defensas y celebrar con puro trolling.",
+    "image": "https://gateway.pinata.cloud/ipfs/bafybeic3cvyjpmag5lat7ta36u4onq3lchyzfg5rgglifvbdngwujnsa6y/2.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "España" },
+      { "trait_type": "Meme", "value": "Trollface" },
+      { "trait_type": "Rareza", "value": "Ultra Rara" },
+      { "trait_type": "Mood", "value": "Tóxico" }
+    ]
+  }

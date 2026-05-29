@@ -1,0 +1,11 @@
+{
+    "name": "El Risitas",
+    "description": "La risa oficial del torneo. Capaz de celebrar un gol antes de que entre al arco.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes2/2.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "México" },
+      { "trait_type": "Meme", "value": "El Risitas" },
+      { "trait_type": "Rareza", "value": "Rara" },
+      { "trait_type": "Mood", "value": "Incontrolable" }
+    ]
+  }

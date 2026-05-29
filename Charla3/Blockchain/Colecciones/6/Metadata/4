@@ -1,0 +1,11 @@
+ {
+    "name": "Mono Pensativo",
+    "description": "La representación oficial de Suiza cuando el partido se va a penales y nadie quiere mirar.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes3/4.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Suiza" },
+      { "trait_type": "Meme", "value": "Monkey Puppet" },
+      { "trait_type": "Rareza", "value": "Épica" },
+      { "trait_type": "Mood", "value": "Nervioso" }
+    ]
+  }

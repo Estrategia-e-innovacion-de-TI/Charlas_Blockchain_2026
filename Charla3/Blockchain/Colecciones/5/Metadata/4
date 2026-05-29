@@ -1,0 +1,11 @@
+  {
+    "name": "Kermit",
+    "description": "El jugador más caótico del campeonato. Celebra, grita y destruye tácticas al mismo tiempo.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes2/4.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Alemania" },
+      { "trait_type": "Meme", "value": "Kermit" },
+      { "trait_type": "Rareza", "value": "Épica" },
+      { "trait_type": "Mood", "value": "Descontrolado" }
+    ]
+  }

@@ -1,9 +1,0 @@
-{
-  "name": "Pepe Triste  #3",
-  "description": "Pepe triste en el palco",
-  "image": "https://gateway.pinata.cloud/ipfs/...../3.png",
-  "attributes": [
-    { "trait_type": "Edicion", "value": "Genesis" },
-    { "trait_type": "Mood", "value": "Triste" }
-  ]
-}

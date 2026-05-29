@@ -1,0 +1,11 @@
+{
+    "name": "Doge Kun",
+    "description": "La estrella japonesa del torneo. Sereno por fuera, peligroso en los contraataques.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes3/2.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Japón" },
+      { "trait_type": "Meme", "value": "Doge" },
+      { "trait_type": "Rareza", "value": "Legendaria" },
+      { "trait_type": "Mood", "value": "Concentrado" }
+    ]
+  }

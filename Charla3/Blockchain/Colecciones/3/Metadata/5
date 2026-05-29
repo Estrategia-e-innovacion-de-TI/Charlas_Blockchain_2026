@@ -1,0 +1,11 @@
+  {
+    "name": "Bob Esponja",
+    "description": "La estrella más energética de Corea del Sur. Corre como si hubiera tomado 14 cafés antes del partido.",
+    "image": "https://gateway.pinata.cloud/ipfs/bafybeic3cvyjpmag5lat7ta36u4onq3lchyzfg5rgglifvbdngwujnsa6y/5.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Corea del Sur" },
+      { "trait_type": "Meme", "value": "SpongeBob" },
+      { "trait_type": "Rareza", "value": "Legendaria" },
+      { "trait_type": "Mood", "value": "Hiperactivo" }
+    ]
+  }

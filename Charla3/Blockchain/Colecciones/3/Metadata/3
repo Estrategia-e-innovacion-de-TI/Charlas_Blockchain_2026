@@ -1,0 +1,11 @@
+  {
+    "name": "Pepe Modrić",
+    "description": "La mezcla definitiva entre sabiduría meme y magia balcánica. Croacia nunca deja de sorprender.",
+    "image": "https://gateway.pinata.cloud/ipfs/bafybeic3cvyjpmag5lat7ta36u4onq3lchyzfg5rgglifvbdngwujnsa6y/3.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Croacia" },
+      { "trait_type": "Meme", "value": "Pepe the Frog" },
+      { "trait_type": "Rareza", "value": "Rara" },
+      { "trait_type": "Mood", "value": "Relajado" }
+    ]
+  }

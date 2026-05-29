@@ -1,0 +1,11 @@
+{
+    "name": "Gato Enojado",
+    "description": "La máxima representación del fútbol italiano cuando el árbitro añade 7 minutos de reposición.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes2/5.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Italia" },
+      { "trait_type": "Meme", "value": "Angry Cat" },
+      { "trait_type": "Rareza", "value": "Ultra Rara" },
+      { "trait_type": "Mood", "value": "Furioso" }
+    ]
+  }
