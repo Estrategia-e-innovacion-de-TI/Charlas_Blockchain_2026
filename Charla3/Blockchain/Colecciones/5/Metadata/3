@@ -1,0 +1,11 @@
+{
+    "name": "Wojak",
+    "description": "Mediocampista emocional de España. Siempre parece triste aunque vaya ganando 3-0.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes2/3.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "España" },
+      { "trait_type": "Meme", "value": "Wojak" },
+      { "trait_type": "Rareza", "value": "Común" },
+      { "trait_type": "Mood", "value": "Vacío Existencial" }
+    ]
+  }

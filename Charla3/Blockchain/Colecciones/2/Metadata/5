@@ -1,0 +1,11 @@
+  {
+    "name": "Jordiolágrimas",
+    "description": "Leyenda uruguaya del drama deportivo. Llora antes, durante y después del partido.",
+    "image": "https://gateway.pinata.cloud/ipfs/bafybeigwejr6neo7hdbptnvf4p3gmk3abvkat7rsi4m5rt73dg7do2eqv4/5.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Uruguay" },
+      { "trait_type": "Meme", "value": "Crying Jordan" },
+      { "trait_type": "Rareza", "value": "Legendaria" },
+      { "trait_type": "Mood", "value": "Devastado" }
+    ]
+  }

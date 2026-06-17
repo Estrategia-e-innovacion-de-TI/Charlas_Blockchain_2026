@@ -1,0 +1,11 @@
+  {
+    "name": "Mono Asustado",
+    "description": "Jugador colombiano especialista en sufrir cada partido como si fuera una final.",
+    "image": "https://gateway.pinata.cloud/ipfs/bafybeigwejr6neo7hdbptnvf4p3gmk3abvkat7rsi4m5rt73dg7do2eqv4/4.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Colombia" },
+      { "trait_type": "Meme", "value": "Monkey Puppet" },
+      { "trait_type": "Rareza", "value": "Común" },
+      { "trait_type": "Mood", "value": "Nervioso" }
+    ]
+  }

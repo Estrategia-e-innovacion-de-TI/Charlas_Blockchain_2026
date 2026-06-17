@@ -1,0 +1,11 @@
+{
+    "name": "Chloe",
+    "description": "La jugadora sueca que representa la reacción exacta de ver a tu equipo perder en el último minuto.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes3/1.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Suecia" },
+      { "trait_type": "Meme", "value": "Side Eye Chloe" },
+      { "trait_type": "Rareza", "value": "Épica" },
+      { "trait_type": "Mood", "value": "Desconfiada" }
+    ]
+  }

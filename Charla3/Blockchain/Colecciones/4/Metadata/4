@@ -1,0 +1,35 @@
+{
+  "name": "Cheems Mundialista #5",
+  "description": "Cheems sufre con nervios extremos antes de un penal decisivo.",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeic3cvyjpmag5lat7ta36u4onq3lchyzfg5rgglifvbdngwujnsa6y/4.png",
+  "attributes": [
+    {
+      "trait_type": "Edicion",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Personaje",
+      "value": "Cheems"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Nervioso"
+    },
+    {
+      "trait_type": "Momento",
+      "value": "Penal"
+    },
+    {
+      "trait_type": "Tematica",
+      "value": "Mundial"
+    },
+    {
+      "trait_type": "Pais",
+      "value": "Colombia"
+    },
+    {
+      "trait_type": "Rareza",
+      "value": "Raro"
+    }
+  ]
+}

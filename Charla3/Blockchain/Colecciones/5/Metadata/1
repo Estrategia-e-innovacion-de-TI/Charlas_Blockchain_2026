@@ -1,0 +1,11 @@
+{
+    "name": "Pepe",
+    "description": "El estratega silencioso de Argentina. Parece tranquilo, pero está calculando cómo ganar el partido en el minuto 90.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes2/1.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Argentina" },
+      { "trait_type": "Meme", "value": "Pepe the Frog" },
+      { "trait_type": "Rareza", "value": "Épica" },
+      { "trait_type": "Mood", "value": "Pensativo" }
+    ]
+  }

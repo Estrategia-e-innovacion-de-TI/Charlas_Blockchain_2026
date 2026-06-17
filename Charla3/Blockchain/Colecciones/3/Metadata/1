@@ -1,0 +1,11 @@
+{
+    "name": "Disaster Girl",
+    "description": "La jugadora italiana que sonríe mientras todo el equipo rival entra en crisis.",
+    "image": "https://gateway.pinata.cloud/ipfs/bafybeic3cvyjpmag5lat7ta36u4onq3lchyzfg5rgglifvbdngwujnsa6y/1.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Italia" },
+      { "trait_type": "Meme", "value": "Disaster Girl" },
+      { "trait_type": "Rareza", "value": "Legendaria" },
+      { "trait_type": "Mood", "value": "Caótica" }
+    ]
+  }

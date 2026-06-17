@@ -1,0 +1,11 @@
+{
+    "name": "Gato Llorón",
+    "description": "La estrella más sentimental del Mundial de Memes 2024. Representa el drama futbolero brasileño después de perder en penales.",
+    "image": "https://gateway.pinata.cloud/ipfs/bafybeigwejr6neo7hdbptnvf4p3gmk3abvkat7rsi4m5rt73dg7do2eqv4/0.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Brasil" },
+      { "trait_type": "Meme", "value": "Crying Cat" },
+      { "trait_type": "Rareza", "value": "Épica" },
+      { "trait_type": "Mood", "value": "Triste" }
+    ]
+  }

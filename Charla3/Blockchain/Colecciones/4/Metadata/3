@@ -1,0 +1,14 @@
+{
+  "name": "Cheems Mundialista #4",
+  "description": "Cheems duda de la decisión del VAR con mirada seria y sospechosa.",
+   "image": "https://gateway.pinata.cloud/ipfs/bafybeic3cvyjpmag5lat7ta36u4onq3lchyzfg5rgglifvbdngwujnsa6y/3.png",
+  "attributes": [
+    { "trait_type": "Edicion", "value": "Genesis" },
+    { "trait_type": "Personaje", "value": "Cheems" },
+    { "trait_type": "Mood", "value": "Sospechando" },
+    { "trait_type": "Momento", "value": "Revisión VAR" },
+    { "trait_type": "Tematica", "value": "Mundial" },
+    { "trait_type": "Pais", "value": "Colombia" },
+    { "trait_type": "Rareza", "value": "Épico" }
+  ]
+}

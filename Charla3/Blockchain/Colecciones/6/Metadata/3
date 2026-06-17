@@ -1,0 +1,11 @@
+{
+    "name": "Mike Wazowski",
+    "description": "El jugador mexicano más inexpresivo del campeonato. Nadie sabe si está feliz o traumado.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes3/3.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "México" },
+      { "trait_type": "Meme", "value": "Mike Wazowski" },
+      { "trait_type": "Rareza", "value": "Común" },
+      { "trait_type": "Mood", "value": "Vacío" }
+    ]
+  }

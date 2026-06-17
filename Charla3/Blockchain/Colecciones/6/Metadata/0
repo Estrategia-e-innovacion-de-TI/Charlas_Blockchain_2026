@@ -1,0 +1,11 @@
+{
+    "name": "Smudge",
+    "description": "El delantero más confundido de Países Bajos. Siempre parece molesto porque nadie le pasa el balón.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes3/0.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Países Bajos" },
+      { "trait_type": "Meme", "value": "Smudge Cat" },
+      { "trait_type": "Rareza", "value": "Rara" },
+      { "trait_type": "Mood", "value": "Fastidiado" }
+    ]
+  }

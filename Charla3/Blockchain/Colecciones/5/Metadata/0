@@ -1,0 +1,11 @@
+{
+    "name": "Buff Doge",
+    "description": "El delantero más musculoso del Mundial de Memes 2024. Nadie sabe cómo juega tan bien cargando puro ego y proteína.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmMundialMemes2/0.png",
+    "attributes": [
+      { "trait_type": "Selección", "value": "Brasil" },
+      { "trait_type": "Meme", "value": "Buff Doge" },
+      { "trait_type": "Rareza", "value": "Legendaria" },
+      { "trait_type": "Mood", "value": "Dominante" }
+    ]
+  }
